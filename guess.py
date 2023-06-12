@@ -13,6 +13,7 @@ while amount_of_guesses < 5:
         break
     elif guess != answer and amount_of_guesses == 5:
         print("Oops you have ran out of Guesses :(! Better look next time!")
+        break
     elif guess != answer:
         print("Opps! Guess Again!")
 else:
